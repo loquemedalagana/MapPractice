@@ -46,8 +46,22 @@ const newNums = nums.map(x => { return x*2; } );
 </pre>
 
 2. Filter - Create a new array by keeping the items that return true.
+<pre>
+var nums = [3, 56, 2, 48, 5];
+const newNum = nums.filter(n => {return n > 10});
+console.log(newNum);
+</pre>
+
 3. Reduce - Accumulate a value by doing something to each item in an array.
+<pre>
+</pre>
+
 4. Find - find the first item that matches from an array.
+<pre>
+</pre>
+
 5. FindIndex - find the index of the first item that matches.
+<pre>
+</pre>
 
 <hr/>
