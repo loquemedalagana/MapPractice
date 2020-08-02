@@ -1,11 +1,7 @@
 import React from "react";
 
-function Meaning(prop){
-    return (
-        <dd>
-          {prop.meaning}
-        </dd>
-    );
-}
-
-export default Meaning;
+export default prop => (
+  <dd>
+    {prop.meaning}
+  </dd>
+);

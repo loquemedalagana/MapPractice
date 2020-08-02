@@ -20,7 +20,14 @@ function App() {
         <span>emojipedia</span>
       </h1>
       <dl className="dictionary">
-        {emojipedia.map(makeEntry)}
+        {emojipedia.map(emojielement => (
+          <Entry 
+            key = {emojielement.id}
+            emoji = {emojielement.emoji}
+            name = {emojielement.name}
+            meaning = {emojielement.meaning}
+          />
+        ))}
       </dl>
     </div>
   );
