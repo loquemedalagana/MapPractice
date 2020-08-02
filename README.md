@@ -78,6 +78,9 @@ console.log(newNum);
 
 5. FindIndex - find the index of the first item that matches.
 <pre>
+var nums = [3, 56, 2, 48, 5];
+const newNum = nums.findIndex(n => {return n > 10} )
+console.log(newNum);
 </pre>
 
 <hr/>
