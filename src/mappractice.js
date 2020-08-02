@@ -6,11 +6,14 @@
 //console.log(newNums);
 
 //Filter - Create a new array by keeping the items that return true.
-var nums = [3, 56, 2, 48, 5];
-const newNum = nums.filter(n => {return n > 10});
-console.log(newNum);
+//var nums = [3, 56, 2, 48, 5];
+//const newNum = nums.filter(n => {return n > 10});
+//console.log(newNum);
 
 //Reduce - Accumulate a value by doing something to each item in an array.
+var nums = [3, 56, 2, 48, 5];
+var newNum = nums.reduce((accumulator, currentnum) => {return accumulator + currentnum});
+console.log(newNum);
 
 //Find - find the first item that matches from an array.
 

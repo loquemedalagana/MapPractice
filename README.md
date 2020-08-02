@@ -46,6 +46,8 @@ const newNums = nums.map(x => { return x*2; } );
 </pre>
 
 2. Filter - Create a new array by keeping the items that return true.
+<br/>
+조건에 맞는 데이터만 반환하는 함수
 <pre>
 var nums = [3, 56, 2, 48, 5];
 const newNum = nums.filter(n => {return n > 10});
@@ -53,7 +55,18 @@ console.log(newNum);
 </pre>
 
 3. Reduce - Accumulate a value by doing something to each item in an array.
+<br/>
+다음 코드들은 아웃풋이 같음
 <pre>
+var nums = [3, 56, 2, 48, 5];
+var newNum = 0;
+nums.forEach(curnum => newNum += curnum);
+console.log(newNum);
+</pre>
+<pre>
+var nums = [3, 56, 2, 48, 5];
+var newNum = nums.reduce((accumulator, currentnum) => {return accumulator + currentnum});
+console.log(newNum);
 </pre>
 
 4. Find - find the first item that matches from an array.
