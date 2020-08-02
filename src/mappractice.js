@@ -1,12 +1,8 @@
 var nums = [3, 56, 2, 48, 2];
 console.log(nums);
 
-function double(x){
-    return x*2;
-}
-
 //Map -Create a new array by doing something with each item in an array.
-const newNums = nums.map(double); //output
+const newNums = nums.map(x => { return x*2; } );
 console.log(newNums);
 
 //Filter - Create a new array by keeping the items that return true.
