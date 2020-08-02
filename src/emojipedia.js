@@ -28,3 +28,5 @@ const emojipedia = [
       "the logo of RockingDreamingBoi"
   }
 ];
+
+export default emojipedia;
