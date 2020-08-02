@@ -12,9 +12,8 @@
 <br/>
 
 ## MAP ES6
-1. Map -Create a new array by doing something with each item in an array.
+1. Map -Create a new array by doing something with each item in an array. <br/>
 다음 코드들은 같은 아웃풋이 나옴
-<br/>
 <pre>
 var nums = [3, 56, 2, 48, 2];
 function double(x){
@@ -44,7 +43,7 @@ var newNums = [];
 const newNums = nums.map(x => { return x*2; } );
 </pre>
 
-2. Filter - Create a new array by keeping the items that return true.
+2. Filter - Create a new array by keeping the items that return true. <br/>
 조건에 맞는 데이터만 반환하는 함수
 <pre>
 var nums = [3, 56, 2, 48, 5];
@@ -52,7 +51,7 @@ const newNum = nums.filter(n => {return n > 10});
 console.log(newNum);
 </pre>
 
-3. Reduce - Accumulate a value by doing something to each item in an array.
+3. Reduce - Accumulate a value by doing something to each item in an array. <br/>
 다음 코드들은 아웃풋이 같음
 <pre>
 var nums = [3, 56, 2, 48, 5];
