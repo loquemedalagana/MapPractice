@@ -21,6 +21,6 @@
 //console.log(newNum);
 
 //FindIndex - find the index of the first item that matches.
-var nums = [3, 56, 2, 48, 5];
-const newNum = nums.findIndex(n => {return n > 10} )
-console.log(newNum);
+//var nums = [3, 56, 2, 48, 5];
+//const newNum = nums.findIndex(n => {return n > 10} )
+//console.log(newNum);

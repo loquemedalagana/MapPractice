@@ -13,7 +13,6 @@
 
 ## MAP ES6
 1. Map -Create a new array by doing something with each item in an array.
-<br/>
 다음 코드들은 같은 아웃풋이 나옴
 <br/>
 <pre>
@@ -46,7 +45,6 @@ const newNums = nums.map(x => { return x*2; } );
 </pre>
 
 2. Filter - Create a new array by keeping the items that return true.
-<br/>
 조건에 맞는 데이터만 반환하는 함수
 <pre>
 var nums = [3, 56, 2, 48, 5];
@@ -55,7 +53,6 @@ console.log(newNum);
 </pre>
 
 3. Reduce - Accumulate a value by doing something to each item in an array.
-<br/>
 다음 코드들은 아웃풋이 같음
 <pre>
 var nums = [3, 56, 2, 48, 5];
@@ -81,6 +78,16 @@ console.log(newNum);
 var nums = [3, 56, 2, 48, 5];
 const newNum = nums.findIndex(n => {return n > 10} )
 console.log(newNum);
+</pre>
+
+### 연습문제
+#### (연습문제) emojipedia 객체 배열의 meaning배열만 담긴 글자를 100자 밑으로 잘라서 배열로 반환
+<pre>
+import emojipedia from "./emojipedia";
+let newArr = emojipedia.map(element => {
+    return element.meaning.substring(0, 100);
+});
+console.log(newArr);
 </pre>
 
 <hr/>
